@@ -202,6 +202,12 @@ public class PowerUsageSummary extends PowerUsageBase implements
 	{
 		prefSet.removePreference(mBatteryLightPref);
 	}
+
+        // Check availability of Smart Charging
+        Preference mSmartCharging = (Preference) findPreference("smart_charging_key");
+        if (!getResources().getBoolean(R.bool.config_supportSmartCharging)) {
+		getPreferenceScreen().removePreference(mSmartCharging);
+	}
     }
 
     @Override
