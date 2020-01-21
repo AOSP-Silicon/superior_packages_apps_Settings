@@ -309,4 +309,8 @@
     <string name="show_cpu_info">Show CPU info</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
