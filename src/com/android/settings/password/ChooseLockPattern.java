@@ -664,6 +664,7 @@ public class ChooseLockPattern extends SettingsActivity {
                 }
                 startSaveAndFinish();
                 mLockPatternUtils.setPinPasswordLength(-1, mUserId);
+                Utils.savePINPasswordLength(mLockPatternUtils, 0, mUserId);
             } else if (mUiStage.rightMode == RightButtonMode.Ok) {
                 if (mUiStage != Stage.HelpScreen) {
                     throw new IllegalStateException("Help screen is only mode with ok button, "

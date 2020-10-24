@@ -746,6 +746,7 @@ public class ChooseLockPassword extends SettingsActivity {
                 if (mChosenPassword.equals(mFirstPassword)) {
                     startSaveAndFinish();
                     mLockPatternUtils.setPinPasswordLength(mChosenPassword.size(), mUserId);
+                    Utils.savePINPasswordLength(mLockPatternUtils, mChosenPassword.size(), mUserId);
                 } else {
                     CharSequence tmp = mPasswordEntry.getText();
                     if (tmp != null) {
