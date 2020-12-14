@@ -151,8 +151,9 @@
     <string name="density_category">Density options</string>
 
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost\n(This has no effect on the 24 hrs usage stats)</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
     <!-- Battery 24hrs stats -->
     <string name="battery_24_hrs_stats_title" translatable="false">24-hour battery usage</string>
