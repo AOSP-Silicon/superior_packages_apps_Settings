@@ -74,6 +74,13 @@
             android:selectable="true"
             settings:textStart="@string/back_height_low_label"
             settings:textEnd="@string/back_height_high_label"/>
+
+	<com.android.settingslib.widget.FooterPreference
+            android:key="gesture_navigation_settings_footer"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:selectable="false"
+            settings:searchable="false"/>
     </PreferenceCategory>
 
     <com.superior.support.preferences.SecureSettingSwitchPreference
@@ -109,5 +116,11 @@
             android:title="@string/back_gesture_arrow_message"
             android:summary="@string/back_gesture_arrow_summary"
             android:defaultValue="true" />
+
+	<com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="fullscreen_gestures"
+            android:title="@string/fullscreen_gestures_title"
+            android:summary="@string/fullscreen_gestures_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
