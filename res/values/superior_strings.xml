@@ -122,4 +122,7 @@
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
 
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+
 </resources>
