@@ -153,4 +153,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
+    <!-- Battery 24hrs stats -->
+    <string name="battery_24_hrs_stats_title" translatable="false">24-hour battery usage</string>
+    <string name="battery_24_hrs_stats_summary" translatable="false">View usage for past 24 hours</string>
 </resources>
